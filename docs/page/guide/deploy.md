@@ -53,3 +53,5 @@ title: 介紹
       "deploy": "sh deploy.sh"
     }
     ```
+
+  - 5. 連結 [`github`](https://github.com/) 及 開啟 `page` 功能
