@@ -3,7 +3,7 @@ title: 介紹
 ---
 
 # 配置
-  如果沒有任何配置，這個網站將會是非常局限的，使用者也無法在你的網站上自由導航。為了更好地自訂你的網站，首先，你需要在你的文件目錄下建立一個 `.vuepress` 目錄。所有 VuePress 相關的文件都會被放在這裡。你的專案結構可能是這樣：
+  如果沒有任何配置，這個網站將會是非常局限的，使用者也無法在你的網站上自由導航。為了更好地自訂你的網站，首先，你需要在你的文件目錄下建立一個 `.vitepress` 目錄。所有 VitePress 相關的文件都會被放在這裡。你的專案結構可能是這樣：
 
   ```sh
   ├─ docs
@@ -78,7 +78,7 @@ title: 介紹
     │  ├─ .vitepress
     │  │  └─ config.js
     ```
-    一個 VuePress 網站必要的設定檔是 `.vuepress/config.js`，它應該匯出一個 JavaScript 物件：
+    一個 vitePress 網站必要的設定檔是 `.vitePress/config.js`，它應該匯出一個 JavaScript 物件：
     ```js
     import { head, nav, sidebar } from './configs'
 
